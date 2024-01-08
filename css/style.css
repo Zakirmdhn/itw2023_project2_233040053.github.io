@@ -171,3 +171,147 @@ html ::-webkit-scrollbar {
   transform: translate(-10px);
 }
 /* top cards end */
+
+/* menu start */
+#menu {
+  width: 100%;
+  margin-top: 60px;
+}
+.heading3 {
+  text-align: center;
+  font-size: 30px;
+  color: #b2744c;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+}
+#container2 {
+  margin-top: 50px;
+}
+#menu .card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i {
+  color: #b2744c;
+}
+#menu h3 {
+  text-align: center;
+  color: #b2744c;
+  margin-top: 10px;
+  font-size: 25px;
+}
+#menu p {
+  font-size: 16px;
+  color: #b2744c;
+  padding-top: 10px;
+}
+#menu p span {
+  float: right;
+  cursor: pointer;
+}
+/* menu end */
+
+/* product section start */
+#product {
+  width: 100%;
+}
+.heading4 {
+  text-align: center;
+  color: #b2744c;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 100px;
+  border-bottom: 2px solid #b2744c;
+}
+#container3 {
+  margin-top: 30px;
+}
+#product h3 {
+  text-align: center;
+  color: #b2744c;
+  font-size: 23px;
+}
+#product p {
+  color: #b2744c;
+  padding-top: 10px;
+}
+#product p span {
+  float: right;
+  cursor: pointer;
+}
+/* product section end */
+
+/* contact start */
+#contact {
+  width: 100%;
+  height: 100vh;
+  padding-top: 70px;
+}
+#contact .container {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(90deg, white 80%, #b2744c 20%);
+}
+.heading5 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.heading5 span {
+  color: #b2744c;
+}
+#contact p {
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+#contact input {
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid #b2744c;
+}
+#contact-btn {
+  width: 200px;
+  height: 36px;
+  border: none;
+  background: #b2744c;
+  color: white;
+  font-weight: bold;
+  margin-top: 36px;
+  cursor: pointer;
+}
+#col {
+  width: 40%;
+  height: 50vh;
+  background: black;
+  margin-top: 78px;
+}
+#contact h1 {
+  color: white;
+  font-size: 25px;
+  margin-top: 10;
+  margin-left: 10px;
+}
+#contact #col p {
+  font-size: 15px;
+  color: white;
+  margin-left: 13px;
+  margin-top: 30px;
+}
+@media screen and (max-width:766px){
+  #contact .container{
+    background: white;
+  }
+  #col{
+    width: 100%;
+    background: #b2744c;
+  }
+  #contact{
+    height: 150vh;
+  }
+}
+@media screen and (max-width:400px){
+  #contact input{
+    width: 250px;
+  }
+}
+/* contact end */
